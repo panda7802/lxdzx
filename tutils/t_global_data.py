@@ -16,6 +16,7 @@ class TGlobalData :
     
     plam = "unix"
     FILE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/files/"
+    STATIC_FILE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/static/files/"
     
     @staticmethod
     def init():

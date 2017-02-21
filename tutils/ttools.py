@@ -59,7 +59,7 @@ class TTools :
         except Exception, e:
             logging.exception(e)
         return res
-    
+
     @classmethod
     def hex2Byte(c, hexStr, char_code="UTF-8"):
         """

@@ -21,6 +21,7 @@ import videos_manager.views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', videos_manager.views.t_index_view),
+    url(r'^get_all_videos$', videos_manager.views.t_get_all_videos),
 ]
 
 

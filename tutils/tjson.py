@@ -1,8 +1,6 @@
 # coding=utf-8
 
 '''
-Created on 2016�?12�?8�?
-
 @author: pangt
 '''
 
@@ -19,6 +17,8 @@ import traceback
 from tutils import ttools
 from tutils.t_demo_model import TDemoPerson, TDemoZAddr, TDemoToy
 from tutils.ttools import TTools
+from json.decoder import JSONDecoder
+import django.utils.timezone
 
 
 class TJsonTools(json.JSONEncoder):
@@ -48,11 +48,11 @@ class TJsonTools(json.JSONEncoder):
     @classmethod
     def tJsonEncode(c, obj):
         str = TJsonTools().encode(obj)
-        return str
+        return str.decode('unicode_escape')
 
 
 if "__main__" == __name__:
-    p = TDemoPerson('P1', 'f', "1207", "a")
+    p = TDemoPerson('a啊', 'f', "1207", "a")
     p.addr = TDemoZAddr("1", "zfy")
     p.toys.append(TDemoToy('toy1', 1))
     p.toys.append(TDemoToy('toy2', 2))
@@ -66,4 +66,4 @@ if "__main__" == __name__:
     js_encode = TJsonTools.tJsonEncode(ps)
     print "encode : ", js_encode
     ins = TJsonTools.tJsonDecode(js_encode, TDemoPerson)
-    print "bak : ", TJsonTools.tJsonEncode(ps)
+    print "bak    : ", TJsonTools.tJsonEncode(ps)
