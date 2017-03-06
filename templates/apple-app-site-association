@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "5JPCKT42RQ.com.appurl.test",
+                "paths": ["/admin"]
+            }
+        ]
+    }
+} 

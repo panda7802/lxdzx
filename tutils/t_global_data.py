@@ -12,11 +12,16 @@ from sys import platform
 
 from tutils.t_log import TLog
 
+
 class TGlobalData :
+
+    def __init__(self):
+        pass
     
     plam = "unix"
     FILE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/files/"
     STATIC_FILE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/static/files/"
+    STATIC_RECV_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/static/files/recv"
     
     @staticmethod
     def init():

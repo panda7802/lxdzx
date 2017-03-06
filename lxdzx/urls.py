@@ -22,6 +22,10 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', videos_manager.views.t_index_view),
     url(r'^get_all_videos$', videos_manager.views.t_get_all_videos),
+    url(r'.well-known/pki-validation/fileauth.htm', videos_manager.views.t_f),
+    url(r'apple-app-site-association', videos_manager.views.t_zl),
+	#url(r'h.htm', videos_manager.views.t_f),
+    #url(r'.well-known/pki-validation/fileauth.htm', videos_manager.views.t_index_view),
 ]
 
 

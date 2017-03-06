@@ -1,0 +1,88 @@
+2017-03-06 14:16:44,263 [Dummy-1:6636] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-03-06 14:16:44,267 [Dummy-1:6636] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-03-06 14:16:48,252 [Thread-2:5708] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1361
+2017-03-06 14:16:48,292 [Thread-3:4064] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 304 0
+2017-03-06 14:16:48,293 [Thread-6:3660] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/funcs.js HTTP/1.1" 304 0
+2017-03-06 14:16:48,295 [Thread-4:6964] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/t_reg.js HTTP/1.1" 304 0
+2017-03-06 14:16:48,295 [Thread-5:1204] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/tools/t_base_tools.js HTTP/1.1" 304 0
+2017-03-06 14:16:48,305 [Thread-7:6836] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/img/kaoya.jpg HTTP/1.1" 304 0
+2017-03-06 14:22:17,630 [Dummy-1:9184] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-03-06 14:22:17,632 [Dummy-1:9184] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-03-06 14:23:22,915 [Dummy-1:6288] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-03-06 14:23:22,921 [Dummy-1:6288] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-03-06 14:23:26,608 [Dummy-1:1120] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-03-06 14:23:26,612 [Dummy-1:1120] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-03-06 14:23:29,276 [Dummy-1:10200] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-03-06 14:23:29,280 [Dummy-1:10200] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-03-06 14:23:38,197 [Dummy-1:9544] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-03-06 14:23:38,200 [Dummy-1:9544] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-03-06 14:23:42,717 [Thread-2:8648] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1361
+2017-03-06 14:23:42,753 [Thread-3:3956] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 304 0
+2017-03-06 14:23:42,755 [Thread-4:4088] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/funcs.js HTTP/1.1" 304 0
+2017-03-06 14:23:42,766 [Thread-5:7012] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/tools/t_base_tools.js HTTP/1.1" 304 0
+2017-03-06 14:23:42,767 [Thread-6:9892] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/t_reg.js HTTP/1.1" 304 0
+2017-03-06 14:23:42,773 [Thread-7:7508] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/img/kaoya.jpg HTTP/1.1" 304 0
+2017-03-06 14:24:12,160 [Dummy-1:9360] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-03-06 14:24:12,164 [Dummy-1:9360] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-03-06 14:25:07,951 [Dummy-1:7384] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-03-06 14:25:07,957 [Dummy-1:7384] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-03-06 14:25:14,177 [Thread-2:9500] [sourceDns.webdns.views:26] [views:t_index_view] [DEBUG]- -----------------
+2017-03-06 14:25:14,180 [Thread-2:9500] [sourceDns.webdns.views:27] [views:t_index_view] [ERROR]- -----------------
+2017-03-06 14:25:14,180 [Thread-2:9500] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1361
+2017-03-06 14:25:14,210 [Thread-4:4188] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/tools/t_base_tools.js HTTP/1.1" 304 0
+2017-03-06 14:25:14,211 [Thread-3:5236] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/t_reg.js HTTP/1.1" 304 0
+2017-03-06 14:25:14,210 [Thread-5:8244] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/funcs.js HTTP/1.1" 304 0
+2017-03-06 14:25:14,213 [Thread-6:2740] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 304 0
+2017-03-06 14:25:14,220 [Thread-8:1800] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/img/kaoya.jpg HTTP/1.1" 304 0
+2017-03-06 14:25:20,877 [Thread-9:5584] [sourceDns.webdns.views:26] [views:t_index_view] [DEBUG]- -----------------
+2017-03-06 14:25:20,878 [Thread-9:5584] [sourceDns.webdns.views:27] [views:t_index_view] [ERROR]- -----------------
+2017-03-06 14:25:20,878 [Thread-9:5584] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1361
+2017-03-06 14:25:20,900 [Thread-11:6404] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/tools/t_base_tools.js HTTP/1.1" 304 0
+2017-03-06 14:25:20,900 [Thread-10:8084] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/t_reg.js HTTP/1.1" 304 0
+2017-03-06 14:25:20,900 [Thread-12:8536] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/funcs.js HTTP/1.1" 304 0
+2017-03-06 14:25:20,901 [Thread-13:3604] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 304 0
+2017-03-06 14:25:20,907 [Thread-15:4824] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/img/kaoya.jpg HTTP/1.1" 304 0
+2017-03-06 14:26:45,381 [Thread-2:9780] [sourceDns.webdns.views:27] [views:t_index_view] [ERROR]- -----------------
+2017-03-06 14:26:45,381 [Thread-2:9780] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1361
+2017-03-06 14:26:45,431 [Thread-3:9792] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 304 0
+2017-03-06 14:26:45,433 [Thread-5:9484] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/t_reg.js HTTP/1.1" 304 0
+2017-03-06 14:26:45,434 [Thread-4:8056] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/funcs.js HTTP/1.1" 304 0
+2017-03-06 14:26:45,436 [Thread-6:3288] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/tools/t_base_tools.js HTTP/1.1" 304 0
+2017-03-06 14:26:45,454 [Thread-7:492] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/img/kaoya.jpg HTTP/1.1" 304 0
+2017-03-06 14:27:06,288 [Dummy-1:8792] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-03-06 14:27:06,299 [Dummy-1:8792] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-03-06 14:30:45,171 [Thread-2:8024] [sourceDns.webdns.views:26] [views:t_index_view] [DEBUG]- -----------------
+2017-03-06 14:30:45,171 [Thread-2:8024] [sourceDns.webdns.views:27] [views:t_index_view] [ERROR]- -----------------
+2017-03-06 14:30:45,171 [Thread-2:8024] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1361
+2017-03-06 14:30:45,193 [Thread-3:7340] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 304 0
+2017-03-06 14:30:45,194 [Thread-4:8224] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/funcs.js HTTP/1.1" 304 0
+2017-03-06 14:30:45,194 [Thread-5:9704] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/t_reg.js HTTP/1.1" 304 0
+2017-03-06 14:30:45,196 [Thread-6:7828] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/tools/t_base_tools.js HTTP/1.1" 304 0
+2017-03-06 14:30:45,200 [Thread-7:7212] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/img/kaoya.jpg HTTP/1.1" 304 0

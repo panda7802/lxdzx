@@ -20,6 +20,7 @@ import time
 import threading
 from time import sleep
 from os.path import os
+#from nt import rmdir, remove
 
 # 字体的位置，不同版本的系统会有不同
 font_path = BASE_DIR + '/files/ttf/sjt.ttf'

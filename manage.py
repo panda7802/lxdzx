@@ -1,5 +1,5 @@
-#!/usr/bin/env python
 # coding=utf8
+#!/usr/bin/env python
 import os
 import sys
 import logging
@@ -14,7 +14,7 @@ if __name__ == "__main__":
     print "Start ---------------------"
 
     if len(argv) > 1 and argv[1] == 'runserver':
-        TLog.init()
+        # TLog.init()
         TGlobalData.init()
         print "---------------------"
     # 测试还是正式程序

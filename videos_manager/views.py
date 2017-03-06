@@ -16,21 +16,53 @@ from TJsonModels import JVideos
 import time
 import datetime
 import os
+from django.http import StreamingHttpResponse
+
+logger = logging.getLogger('sourceDns.webdns.views')
 
 
 def t_index_view(req):
     res = render_to_response('index.html')
+    logger.debug("-----------------")
+    logger.error("-----------------")
+    return res
+
+
+def t_zl(req):
+    url = "/home/ubuntu/projects/lxdzx/templates/apple-app-site-association"
+    with open(url) as f:
+        c = f.read()
+    return HttpResponse(c, content_type='application/pkcs7-mime')
+
+
+#   res = render_to_response('apple-app-site-association')
+#   return res
+
+
+def t_f(req):
+    res = render_to_response('fileauth.htm')
     return res
 
 
 def t_get_all_videos(req):
-    # res = render_to_response('index.html')
-    db_res = Videos.objects.all()
+    start_id = int(req.GET.get('sid', 0))
+    data_len = int(req.GET.get('len', 9999))
+    t_id = int(req.GET.get('id', -1))
+
     tj_videos = []
+    if t_id < 0:  # 没有id截取
+        db_res = Videos.objects.order_by("-id")[start_id:(data_len + start_id)]
+    else:
+        db_res = Videos.objects.filter(id=t_id)  # .filter(id=t_id).filter(id__gte=t_id)
+
     for item in db_res:
         video = JVideos()
+        video.id = item.id
         video.title = item.title  # 标题
-        video.pic_url = item.pic_url.url[len(TGlobalData.STATIC_FILE_PATH) + 2:]  # 图片
+        # logger.debug("----------------" + item.pic_url.url)
+        # logger.debug("----------------" + TGlobalData.STATIC_RECV_PATH)
+        if len(item.pic_url.url) > len(TGlobalData.STATIC_RECV_PATH):
+            video.pic_url = item.pic_url.url[len(TGlobalData.STATIC_RECV_PATH):]  # 图片
         video.video_url = item.video_url  # video_url;# 缩略图
         video.desc = item.desc  # 描述
         # video.tags = item.tags  # 标签
